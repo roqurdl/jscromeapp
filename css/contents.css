@@ -1,0 +1,12 @@
+#contents {
+  width: var(--common_width);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#todos,
+#dday {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
