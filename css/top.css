@@ -2,14 +2,16 @@
   display: flex;
   justify-content: space-between;
   width: var(--common_width);
-  padding-top: 70px;
+  margin-top: 70px;
   font-weight: 600;
+  background-color: var(--background_color);
 }
 #title {
   font-size: 50px;
 }
 
-#clock {
+#clock,
+#weather {
   display: flex;
   flex-direction: column;
   align-items: center;

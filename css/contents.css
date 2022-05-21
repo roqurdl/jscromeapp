@@ -4,9 +4,24 @@
   justify-content: space-between;
   margin-top: 20px;
 }
-#todos,
-#dday {
+
+#dday,
+.content_left {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--background_color);
+}
+#todo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#content_left {
+  width: 30%;
+}
+
+#todo-box {
+  background-color: var(--background_color);
 }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Welcome To My App</title>
+  </head>
+  <body>
+    <div id="top-main">
+      <div id="clock">
+        <h1></h1>
+        <h1></h1>
+      </div>
+      <div id="title">To Do List</div>
+      <div id="weather">
+        <h1>d</h1>
+        <h1>d</h1>
+      </div>
+    </div>
+    <div id="quotes" class="hidden">
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <div id="contents">
+      <div class="content_left">
+        <div id="content_left_profile">
+          <img />
+          <span id="username">d</span>
+          <div class="profile_btn">
+            <button>Information</button>
+            <button><a href="index.html">logout</a></button>
+          </div>
+        </div>
+        <div id="dday">
+          <span>Choose D-Day</span>
+          <input type="date" id="ddate" />
+          <span id="dday__text">Select D-Day From Calendar</span>
+          <button id="cal-dday">Figureout D-Day</button>
+        </div>
+      </div>
+      <div id="todo-box">
+        <form id="todo-form">
+          <input
+            type="text"
+            placeholder="Write your TODO and press Enter."
+            required
+          />
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+    </div>
+
+    <script src="js/clock.js"></script>
+    <!--  <script src="js/weather.js"></script>-->
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/dday.js"></script>
+  </body>
+</html>
