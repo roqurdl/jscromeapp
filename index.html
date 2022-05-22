@@ -11,8 +11,10 @@
     <form action="main.html" id="login">
       <div id="login_box">
         <h1>Login</h1>
-        <input type="text" required placeholder="Write your ID" />
-        <input type="password" required placeholder="Write your Password" />
+        <input id="useid" type="text" required placeholder="Write your ID" required minlength="4"
+      />
+        <input id="pw"type="password" required placeholder="Write your Password" required minlength="4"
+        maxlength="16"/>
         <div id="login_box_btn">
           <button>
             <a href="createaccount.html">CreateAccount</a>
@@ -21,7 +23,8 @@
         </div>
       </form>
     </div>
-    
+  
     <script src="js/background.js"></script>
+    <script src="js/login.js"></script>
   </body>
 </html>

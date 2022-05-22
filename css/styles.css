@@ -3,6 +3,7 @@
 @import url("top.css");
 @import url("contents.css");
 @import url("login.css");
+@import url("createaccount.css");
 
 body {
   height: 100vh;
@@ -19,14 +20,16 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: 15px;
-  margin-top: 10px;
-  color: white;
+  width: var(--common_width);
+  padding: 10px 0px;
+  background-color: white;
 }
 #quotes h1:last-child {
   font-size: 10px;
+  text-align: center;
   padding-top: 5px;
 }
-img {
+body > img {
   width: 100%;
   height: 100vh;
   position: absolute;

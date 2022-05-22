@@ -10,10 +10,38 @@
   <body>
     <form id="createaccount" action="index.html">
       <div id="createaccount_box">
-        <input type="text" required placeholder="Write your Name" />
-        <input type="text" required placeholder="Write your ID" />
-        <input type="password" required placeholder="Write your Password" />
-        <input type="password" required placeholder="Confirm your Password" />
+        <h1>Welcome</h1>
+        <input
+          id="username"
+          type="text"
+          required
+          placeholder="Write your Name"
+          minlength="2"
+          maxlength="15"
+        />
+        <input
+          id="userid"
+          type="text"
+          required
+          placeholder="Write your ID"
+          minlength="4"
+        />
+        <input
+          id="userpw"
+          type="password"
+          required
+          placeholder="Write your Password"
+          minlength="4"
+          maxlength="16"
+        />
+        <input
+          id="userpwconfirm"
+          type="password"
+          required
+          placeholder="Confirm your Password"
+          minlength="4"
+          maxlength="16"
+        />
         <div id="createaccount_btn">
           <button>CreateAccount</button
           ><button>
@@ -23,5 +51,6 @@
       </div>
     </form>
     <script src="js/background.js"></script>
+    <script src="js/createaccount.js"></script>
   </body>
 </html>
